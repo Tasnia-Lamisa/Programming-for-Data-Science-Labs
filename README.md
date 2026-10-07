@@ -1,2 +1,5 @@
-# Programming-for-Data-Science-Labs
-Lab work for Programming for Data Science
+# Programming for Data Science Labs
+
+**Name:** Tasnia Lamisa
+
+**Student ID:** 25-61670-1
