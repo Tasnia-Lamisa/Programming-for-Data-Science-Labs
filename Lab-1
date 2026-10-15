@@ -1,0 +1,290 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyP+3Hn0gzYuHehf9bEoKnM8",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Tasnia-Lamisa/Programming-for-Data-Science-Labs/blob/main/Lab-1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Ax5azu4_KhQI",
+        "outputId": "8e19eade-532f-43c3-92ee-e9d11216b24d"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your name :Lamisa\n",
+            "Hello  Lamisa\n"
+          ]
+        }
+      ],
+      "source": [
+        "name = input(\"Enter your name :\")\n",
+        "print(\"Hello\", '', name)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Hello, Programming For Data Science!!!!!\")\n",
+        "\n",
+        "x= 20\n",
+        "y=17\n",
+        "print(x+y)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wd2qBQo_K5nX",
+        "outputId": "b8b226f5-61e3-4e92-de74-86ec4116a383"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello, Programming For Data Science!!!!!\n",
+            "37\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "student_name = \"Tasnia Lamisa\"\n",
+        "student_id = \"25-61670-1\"\n",
+        "age = 21\n",
+        "cgpa = 3.77\n",
+        "department = \"Data Science\"\n",
+        "\n",
+        "print(student_name)\n",
+        "print(student_id)\n",
+        "print(age)\n",
+        "print(cgpa)\n",
+        "print(department)\n",
+        "print(type(name))\n",
+        "print(type(age))\n",
+        "print(type(cgpa))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Z7_2joeILKQn",
+        "outputId": "0674dcd7-fd94-4800-86b5-830449cadd0f"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Tasnia Lamisa\n",
+            "25-61670-1\n",
+            "21\n",
+            "3.77\n",
+            "Data Science\n",
+            "<class 'str'>\n",
+            "<class 'int'>\n",
+            "<class 'float'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name = input(\"Enter your name\")\n",
+        "age = input(\"Enter your age\")\n",
+        "department = input(\"Enter your department: \")\n",
+        "print(\"Hello\", name)\n",
+        "print(\"You are\", age, \"years old.\")\n",
+        "print(\"You study\", department + \".\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MXrK0_GYL60y",
+        "outputId": "1ababbce-1d29-4b52-b0d2-be93daefc401"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your namelamisa\n",
+            "Enter your age21\n",
+            "Enter your department: Ds\n",
+            "Hello lamisa\n",
+            "You are 21 years old.\n",
+            "You study Ds.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "h_gov1ohNFYN"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input(\"Enter the 1st number:\"))\n",
+        "b = int(input(\"Enter the 2nd number \"))\n",
+        "print(\"Sum:\", a + b)\n",
+        "print(\"Difference:\", a - b)\n",
+        "print(\"Product:\", a * b)\n",
+        "print(\"Division:\", a / b)\n",
+        "print(\"Remainder:\", a % b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IIQRlMsyMSgZ",
+        "outputId": "6f549d60-2619-4ddf-c849-3ba946bbc12b"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the 1st number:20\n",
+            "Enter the 2nd number 5\n",
+            "Sum: 25\n",
+            "Difference: 15\n",
+            "Product: 100\n",
+            "Division: 4.0\n",
+            "Remainder: 0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name = input(\"Enter student name: \")\n",
+        "student_id = input(\"Enter student ID: \")\n",
+        "age = int(input(\"Enter age: \"))\n",
+        "department = input(\"Enter department: \")\n",
+        "cgpa = float(input(\"Enter CGPA: \"))\n",
+        "\n",
+        "print(\"\\n===== STUDENT PROFILE =====\")\n",
+        "print(f\"Name       : {name}\")\n",
+        "print(f\"Student ID : {student_id}\")\n",
+        "print(f\"Age        : {age}\")\n",
+        "print(f\"Department : {department}\")\n",
+        "print(f\"CGPA       : {cgpa:.2f}\")\n",
+        "print(\"===========================\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "w7_Spy17LsVY",
+        "outputId": "149c15fd-4e8f-4462-86cd-1b675854c153"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter student name: Tasnia Lamisa\n",
+            "Enter student ID: 25-61670-1\n",
+            "Enter age: 21\n",
+            "Enter department: Data Science\n",
+            "Enter CGPA: 3.77\n",
+            "\n",
+            "===== STUDENT PROFILE =====\n",
+            "Name       : Tasnia Lamisa\n",
+            "Student ID : 25-61670-1\n",
+            "Age        : 21\n",
+            "Department : Data Science\n",
+            "CGPA       : 3.77\n",
+            "===========================\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "celsius = float(input(\"Enter temperature in Celsius: \"))\n",
+        "\n",
+        "fahrenheit = (celsius * 9/5) + 32\n",
+        "kelvin = celsius + 273.15\n",
+        "\n",
+        "print(f\"Temperature in Fahrenheit: {fahrenheit:.2f}F\")\n",
+        "print(f\"Temperature in Kelvin: {kelvin:.2f} K\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "z2i_rVR_NrXo",
+        "outputId": "eec9d4a0-3e18-4551-fa28-faa5527d4ef7"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter temperature in Celsius: 35\n",
+            "Temperature in Fahrenheit: 95.00F\n",
+            "Temperature in Kelvin: 308.15 K\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "AuoxEx0-LlyS"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
